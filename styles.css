@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .game {
+    background-color: #967f7f;
+    padding: 65px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .choice {
+    background-color: #cb9828;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choice img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .choice:hover {
+    background-color: #2980b9;
+  }
+  
+  .result p {
+    font-size: 28px;
+    color: #45d23d;
+    font-weight: 400;
+  }
+  
+  .result .outcome {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #095b16;
+  }
+  
